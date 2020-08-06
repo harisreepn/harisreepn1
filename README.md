@@ -1,7 +1,7 @@
 # harisreepn
 <html>
 <head>
-<title>NEHRU ARTS AND SCIENCE COLLEGE
+<title></h1>NEHRU ARTS AND SCIENCE COLLEGE</title>
 </head>
 <body>
 Nehru arts and science college
