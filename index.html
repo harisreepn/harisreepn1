@@ -3,7 +3,7 @@
 <head>
 <title>REGISTRATION FORM</title>
 </head>
-
+<bgcolour="rose"/>
 
 <body> 
 
@@ -16,22 +16,35 @@
     <p>Name: <input type="text" size=65 name="Name"/><br>
         
  
-    <p>  Father's Name: <input type="text" size=65 name="Name"/>
+    <p>  Father's Name: <input type="text" size=65 placeholder="Name"/>
     </p><br>    
  
-    <p>   Mother'sName: <input type="text" size=65 name="Name"/></p><br>
+    <p>   Mother'sName: <input type="text" size=65 placeholder="Name"/></p><br>
+    <p>DOB:<input type="date"
   
-    <p>Address: <input type="text" name="Address"/>  </p><br> 
+    <p>Address: <input type="text" <textarea>cols="50"</textarea>placeholder="Address"/>  </p><br> 
 
  
-    <p>E-mail Address: <input type="text"  name="EMail"> </p> <br> 
+    <p>E-mail Address: <input type="email"  placeholder="EMail"><required> </p> <br> 
 
     
-    <p>Password: <input type="text" name="password"/></p>  <br>       
+    <p>Password: <input type="password" placeholder="password"/><required></p>  <br>       
     
-     
-
-    <p><input type="submit" value="send" name=submit/></p>
+     <p><h2>sex</h2></p>
+<p>Female:<input type="radio" name="sex"/></p>
+<p>male:<input type="radio" name="sex"/></p>
+<p>others:<input type="radio" name="sex"/></p>
+<p><table
+<tr><h2>education</h2></tr>
+<th>SSLC</th>
+<th>+2</th>
+<tr><h2>marks</h2></tr>
+<th><select>
+<option>passed</option>
+<option>failed</option>
+</select>
+/></P>
+    <p><input type="submit" value="register" name=submit/></p>
 
 </form>
 </body>
