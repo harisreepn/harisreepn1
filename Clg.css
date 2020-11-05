@@ -4,7 +4,9 @@ background-color:rose;
 }
 p
 {
-background-color:black;
-color:white;
+background-color:Black;
+color:White;
 font-size:14pt;
+text-align:justified;
+margin:auto;
 }
