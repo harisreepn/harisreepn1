@@ -2,3 +2,9 @@ body
 {
 background-color:rose;
 }
+p
+{
+background-color:black;
+color:white;
+font-size:14pt;
+}
